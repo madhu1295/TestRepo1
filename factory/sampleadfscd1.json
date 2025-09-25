@@ -1,0 +1,9 @@
+{
+	"name": "sampleadfscd1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "357c7e9a-9154-4026-a413-0f757ae48d7c",
+		"tenantId": "55f5947c-92a1-48e2-b964-389c9555cf2d"
+	}
+}

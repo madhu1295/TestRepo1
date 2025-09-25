@@ -1,0 +1,19 @@
+{
+	"name": "InputDeleteFile",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "Input",
+				"container": "employee"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
